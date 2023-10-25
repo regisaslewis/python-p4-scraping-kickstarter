@@ -25,5 +25,3 @@ def create_project_dict():
     return projects
 
 projects = create_project_dict()
-for n in projects.values():
-    print(n["percent_funded"])
